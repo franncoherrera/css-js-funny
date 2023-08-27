@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Bouncing Text Animation with Splitting.js | @keyframers 4.0</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!--
+
+1. Stretchy Pill Ball
+2. Interval / Duration CSS Variables
+-->
+
+<div class="ball" data-splitting>
+  <div class="ball-top"></div>
+</div>
+
+<div class="phrase" data-splitting="items">
+  <span class="word slide" data-splitting="chars">key</span>
+  <span class="word slide" data-splitting="chars">fra</span>
+  <span class="word slide" data-splitting="chars">mers</span>
+  <span class="word smiley" data-splitting="chars">:)</span>
+</div>
+<!-- partial -->
+  <script type="module" src="./script.js"></script>
+
+</body>
+</html>
