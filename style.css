@@ -78,7 +78,7 @@ body h1 {
   opacity: 1;
 }
 
-.container .card .face.face1 .content i {
+.container .card .face.face1 .content svg {
   font-size: 3em;
   color: black;
   display: inline-block;
