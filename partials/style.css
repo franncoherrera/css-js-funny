@@ -32,7 +32,7 @@ body h2 {
 .caja {
   border: 1px solid #5b5151;
   border-radius: 15px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  box-shadow:inline 2px 2px 5px rgba(0, 0, 0, 0.3);
   font-weight: bold;
   width: 400px;
   height: 200px;
