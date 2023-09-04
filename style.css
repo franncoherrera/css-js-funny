@@ -1,16 +1,13 @@
 body {
   margin: 0;
   padding: 0;
-  height: 100vh;
-  top: 0;
   font-family: "Raleway", sans-serif;
   background-image: url(assets/3.jpg);
   background-size: cover;
   background-position: center;
 }
 
-body .h1 {
-  height: 10%;
+body h1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,7 +20,6 @@ body .h1 {
 }
 
 .container {
-  width: 1200;
   position: relative;
   display: flex;
   flex-direction: row;
@@ -133,7 +129,6 @@ a {
 }
 
 body footer {
-  height: 10%;
   width: 100%;
   position: absolute;
   margin: 0;
@@ -150,6 +145,7 @@ body footer h1 {
   color: white;
   display: flex;
   margin-left: 15px;
+  font-size: 25px;
 }
 
 footer ul li {
@@ -157,11 +153,11 @@ footer ul li {
 }
 
 footer ul li a {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   background-color: #fff;
   text-align: center;
-  line-height: 60px;
+  line-height: 40px;
   font-size: 35px;
   margin: 0 10px;
   display: block;
@@ -201,15 +197,19 @@ footer ul li a:hover:before {
 }
 
 footer ul li:nth-child(1) a:before {
-  background:  #4a7b9d;
+  background: #4a7b9d;
 }
 
-@media only screen and (max-width: 800px) {
-  body .h1{
-    margin-top: 50px;
-    font-size: 25px;
+@media only screen and (max-width: 1614px) {
+  body footer{
+    bottom: -100px;
   }
-  body footer {
-    display: none;
+}
+@media only screen and (max-width: 800px) {
+  body {
+    position: relative;
+  }
+  body footer{
+    bottom: -110px;
   }
 }
