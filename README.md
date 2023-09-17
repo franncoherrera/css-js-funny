@@ -2,6 +2,8 @@
 Muestra de imagenes interactivo
 Botones especiales
 Menú de redes sociales
+
+
 ...... y mucho mas!
 
 Estos proyectos estan hechos en html y css **(1). 
