@@ -202,7 +202,7 @@ footer ul li:nth-child(1) a:before {
 
 @media only screen and (max-width: 1614px) {
   body footer{
-    bottom: -100px;
+    bottom: -250px;
   }
 }
 @media only screen and (max-width: 800px) {
